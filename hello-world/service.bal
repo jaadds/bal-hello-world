@@ -12,7 +12,7 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Hello, " + name;
+        return "Hello, " + name + " By Sandbox";
     }
 
     resource function get greet(string name) returns string|error {
@@ -20,6 +20,6 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Greetings, " + name;
+        return "Greetings, " + name + " By Sandbox";
     }
 }
