@@ -1,0 +1,9 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.6.0"
+  name = "my_unique_component_test_2"
+  org = "amiladesilva"
+  version = "0.1.0"
+
